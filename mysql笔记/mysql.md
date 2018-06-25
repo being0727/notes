@@ -69,3 +69,12 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
 
 
 ![生成随机密码](.\img\生成随机密码.jpg)
+
+
+
+开机自启动
+
+```shell
+chkconfig --add mysqld
+```
+

@@ -14,6 +14,20 @@ redis-cli -h 127.0.0.1 -p 6381  shutdown
 cd /opt/redis 
 ```
 
+创建server服务
+
+```shell
+cd /opt/redis-3.2.1/utils
+./install_server.sh
+
+#生成的文件放置在  配置文件：/etc/redis/  数据存储：/var/lib/redis/
+
+```
+
+
+
+
+
 
 
 实时查看日志 
